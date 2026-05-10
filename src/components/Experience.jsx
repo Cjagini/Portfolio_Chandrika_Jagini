@@ -7,6 +7,19 @@ const Experience = () => {
 
   const experiences = [
     {
+      role: 'Software Developer - Integrations',
+      company: 'FedEx Freight',
+      period: '02/2026 - Current',
+      highlights: [
+        'Architected and deployed 8+ enterprise APIs on MuleSoft Anypoint Platform, integrating legacy systems with modern microservices reducing system integration time by 35%',
+        'Managed full API lifecycle including design, deployment, versioning, and monitoring across multiple environments (Dev, Test, Production)',
+        'Implemented API security policies: OAuth 2.0, rate limiting, request validation, reducing unauthorized API access incidents by 100%',
+        'Developed EDI integration solutions processing 10,000+ daily transactions with 99.9% delivery success rate',
+        'Optimized API performance using Anypoint Analytics achieving 40% reduction in response times',
+        'Collaborated with cross-functional teams to gather requirements and deliver business-critical integrations'
+      ]
+    },
+    {
       role: 'Software Developer I',
       company: 'FedEx',
       period: '01/2025 - Current',
@@ -104,7 +117,3 @@ const Experience = () => {
 }
 
 export default Experience
-
-
-
-
