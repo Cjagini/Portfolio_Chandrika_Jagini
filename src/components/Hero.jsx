@@ -53,7 +53,7 @@ const Hero = () => {
 
           {/* Social Icons */}
           <div className="flex gap-6 pt-4 animate-slide-in-up" style={{ animationDelay: '0.3s' }}>
-            <a href="https://github.com/ChandrikaJ99" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/Cjagini" target="_blank" rel="noopener noreferrer" 
                className="w-10 h-10 flex items-center justify-center rounded-lg bg-netflix-dark border border-accent-sky/30 text-accent-sky hover:bg-accent-sky/10 hover:border-accent-sky/60 hover:text-accent-sky transition text-lg group">
               <FaGithub className="group-hover:scale-110 transition" />
             </a>
@@ -66,7 +66,7 @@ const Hero = () => {
               <FaEnvelope className="group-hover:scale-110 transition" />
             </a>
             <a href="tel:+19016565912"
-               className="w-10 h-10 flex items-center justify-center rounded-lg bg-netflix-dark border border-accent-mauve/30 text-accent-mauve hover:bg-accent-mauve/10 hover:border-accent-mauve/60 hover:text-accent-mauve transition text-lg group">
+               className="w-10 h-10 flex items-center justify-center rounded-lg bg-netflix-dark border border-accent-sky/30 text-accent-sky hover:bg-accent-sky/10 hover:border-accent-sky/60 hover:text-accent-sky transition text-lg group">
               <FaPhone className="group-hover:scale-110 transition" />
             </a>
           </div>
@@ -75,14 +75,14 @@ const Hero = () => {
         {/* Right Image */}
         <div className="animate-scale-up flex justify-center" style={{ animationDelay: '0.2s' }}>
           <div className="relative w-72 h-72 md:w-80 md:h-80">
-            <div className="absolute inset-0 bg-gradient-to-br from-accent-mauve/20 to-transparent rounded-2xl blur-2xl" />
-            <div className="relative h-full rounded-2xl overflow-hidden border-2 border-accent-mauve/30 shadow-2xl shadow-accent-mauve/10 hover:border-accent-mauve/60 transition duration-500 group">
+            <div className="absolute inset-0 bg-gradient-to-br from-accent-sky/20 to-transparent rounded-2xl blur-2xl" />
+            <div className="relative h-full rounded-2xl overflow-hidden border-2 border-accent-sky/30 shadow-2xl shadow-accent-sky/10 hover:border-accent-sky/60 transition duration-500 group">
               <img 
                 src="/profile.jpg" 
                 alt="Chandrika Jagini" 
                 className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 onError={(e) => {
-                  e.target.parentElement.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-accent-mauvedark to-netflix-dark flex items-center justify-center"><span class="text-6xl font-black text-accent-mauve/40">CJ</span></div>'
+                  e.target.parentElement.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-accent-sky to-netflix-dark flex items-center justify-center"><span class="text-6xl font-black text-accent-sky/40">CJ</span></div>'
                 }}
               />
             </div>
@@ -94,4 +94,3 @@ const Hero = () => {
 }
 
 export default Hero
-
