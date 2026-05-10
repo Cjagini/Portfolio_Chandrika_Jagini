@@ -18,7 +18,7 @@ const About = () => {
               I'm a passionate software developer with over 3 years of professional experience building scalable applications and enterprise solutions. My journey spans from backend microservices development to AI integration and automation.
             </p>
             <p className="text-lg text-netflix-light leading-relaxed">
-              At FedEx, I've developed 15+ APIs, managed CI/CD pipelines, and implemented GitHub Copilot to boost team productivity. My expertise includes Java Spring Boot, microservices architecture, REST APIs, and modern development practices.
+              At FedEx, I've developed 15+ APIs, managed CI/CD pipelines, and implemented GitHub Copilot to boost team productivity. My expertise includes Java Spring Boot, microservices architecture, REST APIs, and modern development practices. Currently, I specialize in enterprise integrations using MuleSoft and Anypoint Platform, designing and managing APIs for complex system integrations including EDI applications.
             </p>
             <p className="text-lg text-netflix-light leading-relaxed">
               I'm also passionate about AI and have completed Harvard's CS50AI program. I enjoy solving complex problems, optimizing systems, and mentoring team members.
@@ -43,5 +43,3 @@ const About = () => {
 }
 
 export default About
-
-
