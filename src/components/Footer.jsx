@@ -33,7 +33,7 @@ const Footer = () => {
             <h4 className="text-netflix-light font-semibold mb-4">Connect</h4>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/ChandrikaJ99"
+                href="https://github.com/Cjagini"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-netflix-light hover:text-accent-sky transition-colors text-lg"
@@ -70,5 +70,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-
