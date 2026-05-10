@@ -15,7 +15,7 @@ const Skills = () => {
     {
       title: 'Backend & Frameworks',
       icon: <SiSpringboot className="text-2xl" />,
-      skills: ['Spring Boot', 'Node.js', 'Express.js', 'RESTful APIs', 'Microservices', 'J2EE'],
+      skills: ['Spring Boot', 'Node.js', 'Express.js', 'RESTful APIs', 'Microservices', 'J2EE', 'MuleSoft'],
     },
     {
       title: 'Frontend',
@@ -26,6 +26,11 @@ const Skills = () => {
       title: 'Databases',
       icon: <FaDatabase className="text-2xl" />,
       skills: ['MongoDB', 'MySQL', 'PostgreSQL', 'Oracle', 'MS SQL Server'],
+    },
+    {
+      title: 'Integration & APIs',
+      icon: <FaNode className="text-2xl" />,
+      skills: ['MuleSoft', 'Anypoint Platform', 'API Management', 'API Gateway', 'EDI', 'Enterprise Integration'],
     },
     {
       title: 'Full Stack & DevOps',
@@ -90,7 +95,3 @@ const Skills = () => {
 }
 
 export default Skills
-
-
-
-
