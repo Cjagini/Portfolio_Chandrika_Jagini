@@ -84,7 +84,7 @@ const Projects = () => {
         <div className={`mt-12 text-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           <p className="text-netflix-light mb-6">Check out more projects on my GitHub</p>
           <a 
-            href="https://github.com/ChandrikaJ99" 
+            href="https://github.com/Cjagini" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 bg-accent-sky text-netflix-black border border-accent-sky hover:bg-accent-sky/90 hover:shadow-lg hover:shadow-accent-sky/30 rounded-lg font-semibold transition"
@@ -98,7 +98,3 @@ const Projects = () => {
 }
 
 export default Projects
-
-
-
-
